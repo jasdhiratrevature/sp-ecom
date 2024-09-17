@@ -1,10 +1,10 @@
-1. Initial Commit - Branch main
+1. Initial Commit - Branch main 8081
 	Product Service RestAPI created
 
-2. Order Service - Branch orderService
+2. Order Service - Branch orderService 8082
 	Order Service RestAPI created
 	
-3. Inventory Service - Branch inventoryService
+3. Inventory Service - Branch inventoryService 8083
 	Inventory Service RestAPI created
 	
 4. Feign Client - Branch feignClient
@@ -15,3 +15,7 @@
 	Add the feign dependency
 	don't forget to enable the FeignClient @EnableFeignClients in main of order-service
 	Test your application order-service using post main	
+	
+5. Spring Gateway API branch apiGateway 9000
+	Create a new project which will act as a get way to our applications and define the routes
+
