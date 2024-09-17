@@ -25,3 +25,10 @@
 	Add Eureka client dependency to all the application except naming-server and
 	add eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka in app.prop for all applications
 	in the order-service modify the @FeignClient to use the name from the eureka server
+	
+7. Now we will document out API using openAPI docs
+	we will be using spring doc open api for order-service, product-service and inventory-service
+	add the dependency to the 3 mentioned projects
+	The Swagger UI page will then be available at http://server:port/context-path/swagger-ui.html and the OpenAPI description will be available at the following url for json format: http://server:port/context-path/v3/api-docs
+	
+
